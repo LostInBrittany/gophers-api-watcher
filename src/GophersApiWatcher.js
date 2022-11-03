@@ -64,7 +64,7 @@ export class GophersApiWatcher extends LitElement {
         ${ this.gophers ? 
           this.gophers.map(gopher => html`
             <gophers-api-watcher-gopher
-              name=${gopher.name}
+              name=${gopher.displayname}
               url=${gopher.url}
             ></gophers-api-watcher-gopher>`) : ''
         }
