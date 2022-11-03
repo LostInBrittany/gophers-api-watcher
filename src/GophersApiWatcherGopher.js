@@ -65,7 +65,7 @@ export class GophersApiWatcherGopher extends LitElement {
       }
 
       .gopher .image img {
-        max-width:100%;
+        max-width:calc(100% - 20px);
         max-height:calc(100% - 20px);
       }
 
