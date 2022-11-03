@@ -10,9 +10,13 @@ export class GophersApiWatcher extends LitElement {
   static get styles() {
     return css`
       :host {
-        display: block;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: begin;
+        align-items: center;
         padding: 25px;
         max-width: 1280px;
+
         margin: 0 auto;
         color: var(--gophers-api-watcher-text-color, #000);
       }
@@ -27,7 +31,7 @@ export class GophersApiWatcher extends LitElement {
       .gophers-gallery {
         display: flex;
         flex-flow: row wrap;
-        justify-content: begin;
+        justify-content: space-around;
         align-content: begin;
       }
 

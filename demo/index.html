@@ -20,9 +20,7 @@
     const api = 'http://localhost:8080';
     render(
       html`
-        <gophers-api-watcher .api=${api}>
-          some light-dom
-        </gophers-api-watcher>
+        <gophers-api-watcher .api=${api}></gophers-api-watcher>
       `,
       document.querySelector('#demo')
     );
