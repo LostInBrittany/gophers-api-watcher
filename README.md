@@ -1,13 +1,18 @@
-![Gophers API Wathcer](./gophers-api-watcher.png)
-# Gophers API Wathcer
+![Gophers API Watcher](./gophers-api-watcher.png)
+# Gophers API Watcher
 
-A frontend for [Gopher API]().
+A frontend for [Gopher API](https://github.com/scraly/gophers-api).
 
-![Gophers API Wathcer](./img/screenshot.jpg)
-
-
+![Gophers API Watcher](./img/screenshot.jpg)
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+
+
+## Gitpod integration
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lostinbrittany/gophers-api-watcher.git)
+
+
 
 ## Installation
 
