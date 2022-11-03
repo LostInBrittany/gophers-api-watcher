@@ -1,0 +1,21 @@
+{
+  "name": "gophers-api-watcher",
+  "description": "Webcomponent gophers-api-watcher following open-wc recommendations",
+  "license": "MIT",
+  "author": "gophers-api-watcher",
+  "version": "0.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.34"
+  },
+  "customElements": "custom-elements.json"
+}

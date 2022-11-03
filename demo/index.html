@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Gopher API Watcher</title>
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../gophers-api-watcher.js';
+
+    const title = 'Hello owc World!';
+    render(
+      html`
+        <gophers-api-watcher .title=${title}>
+          some light-dom
+        </gophers-api-watcher>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
