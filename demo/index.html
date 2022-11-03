@@ -17,10 +17,10 @@
     import { html, render } from 'lit';
     import '../gophers-api-watcher.js';
 
-    const title = 'Hello owc World!';
+    const api = 'http://localhost:8080';
     render(
       html`
-        <gophers-api-watcher .title=${title}>
+        <gophers-api-watcher .api=${api}>
           some light-dom
         </gophers-api-watcher>
       `,

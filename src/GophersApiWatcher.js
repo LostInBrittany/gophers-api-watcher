@@ -48,22 +48,25 @@ export class GophersApiWatcher extends LitElement {
 
   constructor() {
     super();
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
     this.api = this.api || apiUrl;
     this._getData();
+
   }
 
   render() {
     return html`
       <h1 class="title"><img src="/gophers-api-watcher.png" alt="Gopher API Watcher"></h1>
       <div class="gophers-gallery">
-        ${
+        ${ this.gophers ? 
           this.gophers.map(gopher => html`
             <gophers-api-watcher-gopher
               name=${gopher.name}
               url=${gopher.url}
-            >
-
-            </gophers-api-watcher-gopher>`)
+            ></gophers-api-watcher-gopher>`) : ''
         }
       </div>
     `;
