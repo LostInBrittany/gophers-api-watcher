@@ -1,4 +1,11 @@
-# \<gophers-api-watcher>
+![Gophers API Wathcer](./gophers-api-watcher.png)
+# Gophers API Wathcer
+
+A frontend for [Gopher API]().
+
+![Gophers API Wathcer](./img/screenshot.jpg)
+
+
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
