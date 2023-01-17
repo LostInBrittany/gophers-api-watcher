@@ -12,7 +12,20 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lostinbrittany/gophers-api-watcher.git)
 
+## Development
 
+Install pre-requisites
+
+```
+npm install -g webpack-dev-server
+npm install webpack-dev-server --save-dev
+```
+
+Run locally
+
+```
+npm run start
+```
 
 ## Installation
 
