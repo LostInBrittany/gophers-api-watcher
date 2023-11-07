@@ -10,19 +10,21 @@
     }
   </style>
 </head>
+
+
 <body>
-  <div id="demo"></div>
+  <div id="container"></div>
 
   <script type="module">
     import { html, render } from 'lit';
-    import '../gophers-api-watcher.js';
+    import './src/gophers-api-watcher.js';
 
     const api = 'http://localhost:8080';
     render(
       html`
         <gophers-api-watcher .api=${api}></gophers-api-watcher>
       `,
-      document.querySelector('#demo')
+      document.querySelector('#container')
     );
   </script>
 </body>

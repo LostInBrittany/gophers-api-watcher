@@ -1,5 +1,5 @@
-import { GophersApiWatcher } from './src/GophersApiWatcher.js';
-import {GophersApiWatcherGopher} from './src/GophersApiWatcherGopher';
+import { GophersApiWatcher } from './GophersApiWatcher.js';
+import {GophersApiWatcherGopher} from './GophersApiWatcherGopher.js';
 
 window.customElements.define('gophers-api-watcher', GophersApiWatcher);
 window.customElements.define('gophers-api-watcher-gopher', GophersApiWatcherGopher);

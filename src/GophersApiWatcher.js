@@ -2,6 +2,8 @@ import { html, css, LitElement } from 'lit';
 
 const apiUrl = "http://localhost:8080";
 
+const banner = new URL('../img/gophers-api-watcher.png', import.meta.url).href;
+
 function timeout(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -63,7 +65,7 @@ export class GophersApiWatcher extends LitElement {
 
   render() {
     return html`
-      <h1 class="title"><img src="/gophers-api-watcher.png" alt="Gopher API Watcher"></h1>
+      <h1 class="title"><img src=${banner} alt="Gopher API Watcher"></h1>
       <div class="gophers-gallery">
         ${ this.gophers ? 
           this.gophers.map(gopher => html`
