@@ -1,5 +1,9 @@
 import { html, css, LitElement } from 'lit';
 
+
+const title = new URL('../img/title.png', import.meta.url).href;
+const watcher2 = new URL('../img/watcher2.png', import.meta.url).href;
+
 export class GophersApiWatcherGopher extends LitElement {
   static get styles() {
     return css`
@@ -119,7 +123,7 @@ export class GophersApiWatcherGopher extends LitElement {
     return html`
       <div class="gopher">
         <div class="header">
-          <div class="title"> <img src="/img/title.png" /> </div>
+          <div class="title"> <img src=${title} /> </div>
         </div>
         <div class="image">
           <img src=${this.url} alt=${this.name} />
@@ -128,7 +132,7 @@ export class GophersApiWatcherGopher extends LitElement {
           <div class="tag"> ${this.name} </div>
         </div>
         <div class="footer">
-          <div class="watcher"> <img src="/img/watcher2.png" /> </div>
+          <div class="watcher"> <img src=${watcher2} /> </div>
         </div>
       </div>
     `;
