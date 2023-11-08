@@ -1,6 +1,6 @@
 import { html, css, LitElement } from 'lit';
 
-const apiUrl = "http://localhost:8080";
+const apiUrl = "";
 
 const banner = new URL('../img/gophers-api-watcher.png', import.meta.url).href;
 
