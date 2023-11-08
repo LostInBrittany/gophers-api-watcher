@@ -56,7 +56,7 @@ export class GophersApiWatcherGopher extends LitElement {
 
       .gopher .image {
         width: 230px;
-        height: 250px;
+        height: 200px;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-around;
